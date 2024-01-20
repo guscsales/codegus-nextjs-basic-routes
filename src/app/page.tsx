@@ -6,9 +6,15 @@ export default function Home() {
       <h1 className="text-xl font-bold mb-7">Acessar Perfil</h1>
 
       <div className="flex flex-col">
-        <Link href="/profiles/guscsales" className="hover:underline">Gus</Link>
-        <Link href="/profiles/helenitas" className="hover:underline">Hele</Link>
-        <Link href="/profiles/tonysales" className="hover:underline">Tony</Link>
+        <Link href="/profiles/guscsales?lang=pt" className="hover:underline">
+          Gus
+        </Link>
+        <Link href="/profiles/helenitas?lang=en" className="hover:underline">
+          Hele
+        </Link>
+        <Link href="/profiles/tonysales?lang=es" className="hover:underline">
+          Tony
+        </Link>
       </div>
     </>
   );

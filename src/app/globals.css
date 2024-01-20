@@ -5,3 +5,10 @@
 p {
   @apply mb-3;
 }
+
+
+h1 {
+  @apply text-xl
+    font-bold
+    mb-7;
+}
