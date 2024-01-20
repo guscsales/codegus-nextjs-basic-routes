@@ -23,8 +23,8 @@ export default function RootLayout({
             <Link href="/" className="hover:underline">
               Home
             </Link>
-            <Link href="/profile/guscsales" className="hover:underline">
-              Meu Perfil
+            <Link href="/about" className="hover:underline">
+              Sobre
             </Link>
           </nav>
         </header>
